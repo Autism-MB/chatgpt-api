@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chatgpt-api-domain" />
+        <module name="chatgpt-api-application" />
+        <module name="chatgpt-api-interfaces" />
+        <module name="chatgpt-api-infrastructure" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chatgpt-api" options="-parameters" />
+      <module name="chatgpt-api-application" options="-parameters" />
+      <module name="chatgpt-api-domain" options="-parameters" />
+      <module name="chatgpt-api-infrastructure" options="-parameters" />
+      <module name="chatgpt-api-interfaces" options="-parameters" />
+    </option>
+  </component>
+</project>
